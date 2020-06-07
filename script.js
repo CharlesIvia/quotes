@@ -4,7 +4,7 @@ let quoteDiv = document.getElementById("text");
 let authorDiv = document.getElementById("author");
 let randon;
 let quote;
-let authors;
+let author;
 
 let quotes = [
   "Little by little, one travels far.",
@@ -61,6 +61,17 @@ let authors = [
   "Steven Pressfield",
   "Austin Kleon",
 ];
+
+//Load quote
+
+function loadQuote() {
+  random = Math.floor(Math.random() * quotes.length);
+  quote = quotes[random];
+  author = authors[random];
+  author = "- " + author;
+  quoteDiv.textContent = quote;
+  authorDiv.textContent = author;
+}
 
 //Add event listeners
 window.addEventListener("load", loadQuote);
