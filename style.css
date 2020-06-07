@@ -64,3 +64,13 @@ main {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+.new-quote:active {
+  box-shadow: 1px 1px 2px grey;
+}
+
+@media (max-width: 576px) {
+  .quote-box {
+    width: 336px;
+  }
+}
