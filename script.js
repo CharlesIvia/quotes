@@ -1,3 +1,10 @@
+let newQuote = document.getElementById("new-quote");
+let quoteDiv = document.getElementById("text");
+let authorDiv = document.getElementById("author");
+let randon;
+let quote;
+let authors;
+
 let quotes = [
   "Little by little, one travels far.",
   "Whatever you are, be a good one.",
