@@ -37,3 +37,30 @@ main {
   font-size: 1.5rem;
   line-height: 1.4;
 }
+
+.author {
+  text-align: right;
+  margin-bottom: 2rem;
+  height: 20px;
+  padding-right: 2rem;
+  font-size: 1.15rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-around;
+  line-height: 2;
+}
+
+.new-quote {
+  font-size: 1rem;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 2.5px;
+  outline: none;
+  background: #cce8e5;
+  color: #516163;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
