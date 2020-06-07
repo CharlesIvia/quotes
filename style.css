@@ -14,9 +14,26 @@ body {
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.quote-box {
+  min-height: 300px;
+  width: 500px;
+  box-shadow: 1px 2px 4px #b6b2b2;
+  padding: 1rem;
+  background: white;
+  border-radius: 7.5px;
 }
 
+.text {
+  font-family: "PT Sans Narrow", Arial, Helvetica, sans-serif;
+  min-height: 150px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: left;
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
