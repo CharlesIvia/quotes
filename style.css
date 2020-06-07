@@ -10,7 +10,8 @@ body {
   margin: 0;
   font-family: "PT Sans", Arial, Helvetica, sans-serif;
   background-color: #eec0c6;
-  background: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%) no-repeat center/center;
+  background: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%) no-repeat
+    center/center;
   color: #323b3c;
   max-height: 100vh;
 }
@@ -89,6 +90,6 @@ header {
   align-items: center;
   justify-content: center;
   font-family: "Montserrat", sans-serif;
-  margin-top: 5vh;
+  margin-top: 0.5vh;
   font-size: 22px;
 }
