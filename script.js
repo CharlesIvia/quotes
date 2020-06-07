@@ -1,3 +1,4 @@
+//Query the dom and set variables
 let newQuote = document.getElementById("new-quote");
 let quoteDiv = document.getElementById("text");
 let authorDiv = document.getElementById("author");
@@ -60,3 +61,7 @@ let authors = [
   "Steven Pressfield",
   "Austin Kleon",
 ];
+
+//Add event listeners
+window.addEventListener("load", loadQuote);
+newQuote.addEventListener("click", loadQuote);
